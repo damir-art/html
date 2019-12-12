@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Example HTML</title>
+    <link rel="stylesheet" href="example.css">
+    <script src="example.js"></script>
+</head>
+<body>
+
+<div class="form-wrapper">
+    <form class="form" action="">
+        <div class="form-wrapper__element">
+            <label class="form__label" for="phone">Телефон:</label>
+            <input id="phone" class="form__input" type="text" placeholder="Введите телефон" />
+            <label class="form__label" for="disabled">Телефон (отключено):</label>
+            <input id="disabled" class="form__input" type="text" placeholder="Введите телефон" disabled />
+            <label class="form__label" for="required">Телефон (обязательно):</label>
+            <input id="required" class="form__input" type="text" placeholder="Введите телефон" required />
+        </div>
+        <div class="form-wrapper__element">
+            <input class="form__checkbox" type="checkbox" id="apple" />
+            <label class="checkbox__label" for="apple">Яблоко</label>
+            <input class="form__checkbox" type="checkbox" id="orange" />
+            <label class="checkbox__label" for="orange">Апельсин</label>
+            <input class="form__checkbox" type="checkbox" id="pumpkin" />
+            <label class="checkbox__label" for="pumpkin">Тыква</label>
+            <label class="checkbox__label">
+                <input class="form__chekbox" type="checkbox" /> Дыня
+            </label>
+        </div>
+        <div class="form-wrapper__element">
+            <input id="radio-apple" class="form__radio" type="radio" name="fruit" />
+            <label class="checkbox__label" for="radio-apple">Яблоко</label>
+            <input id="radio-orange" class="form__radio" type="radio" name="fruit" />
+            <label class="checkbox__label" for="radio-orange">Апельсин</label>
+            <input id="radio-pumpkin" class="form__radio" type="radio" name="fruit" />
+            <label class="checkbox__label" for="radio-pumpkin">Тыква</label>
+        </div>
+        <div class="form-wrapper__element">
+            <!-- Ширину и высоту textarea луше задавать в CSS -->
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div class="form-wrapper__element">
+            <label class="form__label" for="button">Кнопка:</label>
+            <input id="button" class="form__input" type="button" value="Кнопка" />
+        </div>
+        <div class="form-wrapper__element">
+            <label class="form__label" for="file">Выберите файл:</label>
+            <input id="file" class="form__input" type="file" />
+        </div>
+        <div class="form-wrapper__element">
+            <label class="form__label" for="password">Пароль:</label>
+            <input id="password" class="form__input" type="password" />
+        </div>
+        <div class="form-wrapper__element">
+            <label class="form__label" for="reset">Сброс:</label>
+            <input id="reset" class="form__input" type="reset" />
+        </div>
+        <div class="form-wrapper__element">
+            <input class="form__input" type="submit" value="Отправить" />
+        </div>
+        <hr />
+        <div class="form-wrapper__element">
+            <label class="form__label" for="">E-mail:</label>
+            <input class="form__input" type="email" placeholder="Введите E-mail" />
+        </div>
+        <div class="form-wrapper__element">
+            <label class="form__label" for="">Number:</label>
+            <input class="form__input" type="number" placeholder="Введите число" />
+        </div>
+        <div class="form-wrapper__element">
+            <label class="form__label" for="color">Color:</label>
+            <input id="color" class="form__input" type="color" value="#cccccc" />
+        </div>
+        <div class="form-wrapper__element">
+            <label class="form__label" for="range">Range:</label>
+            <input id="range" class="form__input" type="range" value="20" min="0" max="150" step="10" />
+        </div>
+        <div class="form-wrapper__element">
+            <label class="form__label" for="tel">Телефон:</label>
+            <input id="tel" class="form__input" type="tel" />
+        </div>
+        <div class="form-wrapper__element">
+            <label class="form__label" for="search">Поиск:</label>
+            <input id="search" class="form__input" type="search" />
+        </div>
+        <div class="form-wrapper__element">
+            <label class="form__label" for="datetime">Дата:</label>
+            <input id="datetime" class="form__input" type="date" />
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
